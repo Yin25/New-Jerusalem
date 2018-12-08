@@ -1,0 +1,9 @@
+Building JERUSALEM
+
+See doc/readme-qt.rst for instructions on building JERUSALEM-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of JERUSALEM.
+
+See doc/build-*.txt for instructions on building jerusalemd,
+the intended-for-services, no-graphical-interface, reference
+implementation of JERUSALEM.

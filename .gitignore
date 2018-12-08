@@ -1,0 +1,34 @@
+src/*.exe
+src/jerusalem
+src/jerusalemd
+src/test_jerusalem
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.jerusalem
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+jerusalem-qt
+JERUSALEM-Qt.app
+
+# Unit-tests
+Makefile.test
+jerusalem-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
